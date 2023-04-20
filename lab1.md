@@ -80,6 +80,12 @@ Now that we are logged in, we can try out some commands.
 
 In the image below, you can see the usage of some basic commands in this environment, such as `ls`,`cd`, and `pwd `.
 
+> `ls` prints all files and folders in the immediate directory
+
+> `cd`, standing for 'change directory', changes the directory to the path given as an argument.
+
+> `pwd`, standing for 'print working directory', prints the current directory to the console.
+
 ![](ssh-commands.png)
 
 ## Conclusion
