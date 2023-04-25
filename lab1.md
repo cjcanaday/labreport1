@@ -80,13 +80,25 @@ Now that we are logged in, we can try out some commands.
 
 In the image below, you can see the usage of some basic commands in this environment, such as `ls`,`cd`, and `pwd `.
 
+![](ssh-commands.png)
+
+In this image, in order, you can see the usage of `ls`, which outputs that a folder of name 'perl5' is present in the directory. From there, we change into the 'perl5' directory using the `cd` command. To return to the directory we were just in, we utilize the `cd ..` command. To return to the home directory, at any point, we can use `cd ~` with the ~ specifically denoting our home directory. We can verify that we are in our home directory by using the `pwd` command, outputting our current working directory.
+
+While these commands are rather simplistic, they give a good overwiew of the directories available to us. Below are some more useful commands:
+
 > `ls` prints all files and folders in the immediate directory
 
 > `cd`, standing for 'change directory', changes the directory to the path given as an argument.
 
 > `pwd`, standing for 'print working directory', prints the current directory to the console.
 
-![](ssh-commands.png)
+> `cp` copies a file or directory from one path to another.
+
+> `clear` clears the terminal screen of all previous commands. Used with no additional arguments. 
+
+> `mkdir` creates a directory with the passed argument as the name.
+
+> `man` shows the manual for a given command. Can be used with any of the above commands, detailing their documentation.
 
 ## Conclusion
 
